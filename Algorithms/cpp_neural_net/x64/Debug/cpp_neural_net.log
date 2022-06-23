@@ -1,0 +1,17 @@
+﻿  neural-net.cpp
+C:\Users\hahmed\source\repos\managing-randomness-to-enable-reproducible-ML\Algorithms\cpp_neural_net\srand-rand-function.h(2,1): warning C4005: 'RAND_MAX': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdlib.h(348): message : see previous definition of 'RAND_MAX'
+C:\Users\hahmed\source\repos\managing-randomness-to-enable-reproducible-ML\Algorithms\cpp_neural_net\neural-net.cpp(296,23): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\hahmed\source\repos\managing-randomness-to-enable-reproducible-ML\Algorithms\cpp_neural_net\neural-net.cpp(297,22): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\hahmed\source\repos\managing-randomness-to-enable-reproducible-ML\Algorithms\cpp_neural_net\neural-net.cpp(325,10): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\hahmed\source\repos\managing-randomness-to-enable-reproducible-ML\Algorithms\cpp_neural_net\neural-net.cpp(420,10): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\hahmed\source\repos\managing-randomness-to-enable-reproducible-ML\Algorithms\cpp_neural_net\neural-net.cpp(521,49): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\hahmed\source\repos\managing-randomness-to-enable-reproducible-ML\Algorithms\cpp_neural_net\neural-net.cpp(658,10): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\hahmed\source\repos\managing-randomness-to-enable-reproducible-ML\Algorithms\cpp_neural_net\neural-net.cpp(674,10): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\hahmed\source\repos\managing-randomness-to-enable-reproducible-ML\Algorithms\cpp_neural_net\neural-net.cpp(139,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\hahmed\source\repos\managing-randomness-to-enable-reproducible-ML\Algorithms\cpp_neural_net\neural-net.cpp(311): message : see reference to function template instantiation 'void random_shuffle2<std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>>>(RandomIt,size_t,size_t)' being compiled
+          with
+          [
+              RandomIt=std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>>
+          ]
+  cpp_neural_net.vcxproj -> C:\Users\hahmed\source\repos\managing-randomness-to-enable-reproducible-ML\Algorithms\cpp_neural_net\x64\Debug\cpp_neural_net.exe

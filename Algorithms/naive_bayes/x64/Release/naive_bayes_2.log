@@ -1,0 +1,13 @@
+﻿  main.cc
+C:\Users\hahmed\source\repos\managing-randomness-to-enable-reproducible-ML\srand-rand-function.h(2,1): warning C4005: 'RAND_MAX': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdlib.h(348): message : see previous definition of 'RAND_MAX'
+C:\Users\hahmed\source\repos\managing-randomness-to-enable-reproducible-ML\naive_bayes_2\main.cc(129,24): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\hahmed\source\repos\managing-randomness-to-enable-reproducible-ML\naive_bayes_2\main.cc(139,26): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\hahmed\source\repos\managing-randomness-to-enable-reproducible-ML\naive_bayes_2\main.cc(149,25): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+     Creating library C:\Users\hahmed\source\repos\managing-randomness-to-enable-reproducible-ML\naive_bayes_2\x64\Release\naive_bayes_2.lib and object C:\Users\hahmed\source\repos\managing-randomness-to-enable-reproducible-ML\naive_bayes_2\x64\Release\naive_bayes_2.exp
+  Generating code
+  20 of 595 functions ( 3.4%) were compiled, the rest were copied from previous compilation.
+    15 functions were new in current compilation
+    19 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  naive_bayes_2.vcxproj -> C:\Users\hahmed\source\repos\managing-randomness-to-enable-reproducible-ML\naive_bayes_2\x64\Release\naive_bayes_2.exe

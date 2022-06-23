@@ -1,0 +1,80 @@
+/*
+Proceses a data set from .csv
+*/
+vector <vector <double> > LoadData(char* data_filename) {
+	ifstream datafile(data_filename);  // change to ../../data/fileName.csv if generating samples in subdirectory
+	ifstream datafile_2(data_filename);
+	if (!datafile.is_open()) std::cout << "ERROR: File Open" << '\n';
+	vector <vector <double>> data;
+
+	// Get number of columns in data set
+	string line;
+	getline(datafile, line);
+
+	// Check file delimiter
+	char delimiter = ' ';
+	if (isCommaDelimited(line)) {
+		delimiter = ',';
+	}
+	else if (isSpaceDelimited(line)) {
+		delimiter = ' ';
+	}
+	else if (isTabDelimited(line)) {
+		delimiter = '\t';
+	}
+	else {
+		cout << "Unrecognized delimiter" << endl;
+	}
+
+	// save entries of first row to vector
+	string entry;
+	stringstream ss(line);
+
+	vector<string> first_row_vec;
+	while (getline(ss, entry, delimiter)) {
+		first_row_vec.emplace_back(entry);
+	}
+	
+	string row;
+	size_t num_columns = first_row_vec.size();
+	size_t rows_size = 0;
+	// push each row of data set to data vector
+	while (getline(datafile_2, row)) {
+		data.resize(rows_size, vector<double>(num_columns));
+		
+		// get line and store entries in vector
+		vector<double> row_vec;
+		string row_entry;
+		istringstream iss(row);
+		
+		while (getline(iss, row_entry, delimiter)) {
+			if (row_entry == "?" || row_entry=="") {  // if missing value, replace with NULL
+				row_vec.push_back(NULL);
+			}
+			else {
+				row_vec.push_back(stod(row_entry));
+			}
+		}
+
+		data.push_back(row_vec);
+		++rows_size;
+	}
+	
+	//fstream datafile_2(data_filename);  // read data again to replace first row
+
+	// Get each column from the data set
+	//size_t rows_size = 0;
+	//vector<string> columns(num_columns);
+	//while (datafile_2.good()) {
+	//	rows_size++;
+	//	data.resize(rows_size, vector <double>(num_columns));
+	//	for (size_t i = 0; i < num_columns - 1; ++i) {
+	//		getline(datafile_2, columns[i], delimiter);
+	//	}
+	//	getline(datafile_2, columns[num_columns - 1], '\n');  // \n because there is no column after
+	//	data[rows_size - 1][num_columns - 1] = atof(columns[num_columns - 1].c_str());
+	//}
+	// write2DVector("general_method_data.txt", data);  // write data vector to file
+
+	return data;
+}

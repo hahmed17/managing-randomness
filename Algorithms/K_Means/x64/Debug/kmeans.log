@@ -1,0 +1,34 @@
+﻿  kmeans.cpp
+C:\Users\hahmed\source\repos\managing-randomness-to-enable-reproducible-ML\Algorithms\K_Means\srand-rand-function.h(2,1): warning C4005: 'RAND_MAX': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdlib.h(348): message : see previous definition of 'RAND_MAX'
+C:\Users\hahmed\source\repos\managing-randomness-to-enable-reproducible-ML\Algorithms\K_Means\kmeans.cpp(165,46): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\hahmed\source\repos\managing-randomness-to-enable-reproducible-ML\Algorithms\K_Means\kmeans.cpp(198,41): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\hahmed\source\repos\managing-randomness-to-enable-reproducible-ML\Algorithms\K_Means\kmeans.cpp(226,33): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\hahmed\source\repos\managing-randomness-to-enable-reproducible-ML\Algorithms\K_Means\kmeans.cpp(340,18): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\hahmed\source\repos\managing-randomness-to-enable-reproducible-ML\Algorithms\K_Means\kmeans.cpp(361,18): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\hahmed\source\repos\managing-randomness-to-enable-reproducible-ML\Algorithms\K_Means\kmeans.cpp(362,16): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\hahmed\source\repos\managing-randomness-to-enable-reproducible-ML\Algorithms\K_Means\kmeans.cpp(408,23): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\hahmed\source\repos\managing-randomness-to-enable-reproducible-ML\Algorithms\K_Means\kmeans.cpp(425,22): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\hahmed\source\repos\managing-randomness-to-enable-reproducible-ML\Algorithms\K_Means\kmeans.cpp(447,18): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\hahmed\source\repos\managing-randomness-to-enable-reproducible-ML\Algorithms\K_Means\kmeans.cpp(529,42): warning C4244: '=': conversion from 'const _Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\hahmed\source\repos\managing-randomness-to-enable-reproducible-ML\Algorithms\K_Means\kmeans.cpp(538,28): warning C4244: '=': conversion from '__int64' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\hahmed\source\repos\managing-randomness-to-enable-reproducible-ML\Algorithms\K_Means\kmeans.cpp(584,34): warning C4244: 'argument': conversion from '__int64' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\hahmed\source\repos\managing-randomness-to-enable-reproducible-ML\Algorithms\K_Means\kmeans.cpp(242,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\hahmed\source\repos\managing-randomness-to-enable-reproducible-ML\Algorithms\K_Means\kmeans.cpp(676): message : see reference to function template instantiation 'void random_shuffle2<vvd>(RandomIt,size_t,size_t)' being compiled
+          with
+          [
+              RandomIt=vvd
+          ]
+  kmeans.vcxproj -> C:\Users\hahmed\source\repos\managing-randomness-to-enable-reproducible-ML\Algorithms\K_Means\x64\Debug\kmeans.exe

@@ -1,0 +1,2 @@
+Total 475 data have 455 correct predictions
+Accuracy is 0.957895

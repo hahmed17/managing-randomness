@@ -1,0 +1,3 @@
+Correct: 310
+Total: 500
+Accuracy: 0.62

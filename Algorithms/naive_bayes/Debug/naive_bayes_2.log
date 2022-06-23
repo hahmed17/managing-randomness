@@ -1,0 +1,41 @@
+﻿  bayesian.cc
+  bayesiannetwork.cc
+C:\Users\hahmed\source\repos\managing-randomness-to-enable-reproducible-ML\naive_bayes_2\bayesiannetwork.cc(92,24): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\hahmed\source\repos\managing-randomness-to-enable-reproducible-ML\naive_bayes_2\bayesiannetwork.cc(444,55): warning C4244: '+=': conversion from '_Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=long double
+          ]
+C:\Users\hahmed\source\repos\managing-randomness-to-enable-reproducible-ML\naive_bayes_2\bayesiannetwork.cc(489,24): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\hahmed\source\repos\managing-randomness-to-enable-reproducible-ML\naive_bayes_2\bayesiannetwork.cc(493,22): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+  machinelearning.cc
+  main.cc
+C:\Users\hahmed\source\repos\managing-randomness-to-enable-reproducible-ML\srand-rand-function.h(2,1): warning C4005: 'RAND_MAX': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdlib.h(348): message : see previous definition of 'RAND_MAX'
+  naivebayesian.cc
+C:\Users\hahmed\source\repos\managing-randomness-to-enable-reproducible-ML\naive_bayes_2\naivebayesian.cc(160,24): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\hahmed\source\repos\managing-randomness-to-enable-reproducible-ML\naive_bayes_2\naivebayesian.cc(165,22): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+  Generating Code...
+C:\Users\hahmed\source\repos\managing-randomness-to-enable-reproducible-ML\naive_bayes_2\main.cc(50): error C4703: potentially uninitialized local pointer variable 'train' used
+C:\Users\hahmed\source\repos\managing-randomness-to-enable-reproducible-ML\naive_bayes_2\main.cc(51): error C4703: potentially uninitialized local pointer variable 'test' used
+C:\Users\hahmed\source\repos\managing-randomness-to-enable-reproducible-ML\naive_bayes_2\main.cc(49): error C4703: potentially uninitialized local pointer variable 'cfg' used

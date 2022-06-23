@@ -1,0 +1,3 @@
+Accuracy before learning: 0.223881
+Final accuracy:           0.223881
+Test predictions: 

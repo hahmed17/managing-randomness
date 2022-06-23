@@ -1,0 +1,9 @@
+Accuracy: 0.992424
+Accuracy: 0.991379
+Accuracy: 0.989899
+Accuracy: 0.965909
+Accuracy: 0.987179
+Accuracy: 1
+Accuracy: 1
+Accuracy: 1
+Accuracy: 1

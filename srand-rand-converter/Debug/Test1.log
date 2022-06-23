@@ -1,0 +1,8 @@
+﻿  Source.cpp
+C:\Users\hahmed\source\repos\Test1\Source.cpp(51,23): warning C4244: '=': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Test1.cpp
+C:\Users\hahmed\source\repos\Test1\Source.cpp(51,23): warning C4244: '=': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\hahmed\source\repos\Test1\Test1.cpp(41,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\hahmed\source\repos\Test1\Test1.cpp(57,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating Code...
+  Test1.vcxproj -> C:\Users\hahmed\source\repos\Test1\Debug\Test1.exe

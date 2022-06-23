@@ -1,0 +1,2 @@
+Accuracy before learning: 0.531293
+Final accuracy:           0.517385

@@ -1,0 +1,7 @@
+C:\Users\hahmed\source\repos\cpp_neural_net> cl -c Source.cpp
+
+C:\Users\hahmed\source\repos\cpp_neural_net> cl Source.cpp -o Source.exe
+
+C:\Users\hahmed\source\repos\cpp_neural_net> cd outputs-heart
+
+C:\Users\hahmed\source\repos\cpp_neural_net> .\batch_run.bat

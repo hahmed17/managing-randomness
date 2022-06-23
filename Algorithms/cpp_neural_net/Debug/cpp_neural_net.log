@@ -1,0 +1,22 @@
+﻿  Source.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\strstream(23,24): error C4996: 'std::_Header_strstream': warning STL4005: <strstream> is deprecated in C++17. You can define _SILENCE_CXX17_STRSTREAM_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to acknowledge that you have received this warning.
+C:\Users\hahmed\source\repos\cpp_neural_net\srand-rand-functions.cpp(51,23): warning C4244: '=': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\hahmed\source\repos\cpp_neural_net\Source.cpp(58,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\hahmed\source\repos\cpp_neural_net\Source.cpp(59,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\hahmed\source\repos\cpp_neural_net\Source.cpp(63,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\hahmed\source\repos\cpp_neural_net\Source.cpp(64,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\hahmed\source\repos\cpp_neural_net\Source.cpp(68,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\hahmed\source\repos\cpp_neural_net\Source.cpp(69,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\hahmed\source\repos\cpp_neural_net\Source.cpp(77,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\hahmed\source\repos\cpp_neural_net\Source.cpp(78,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\hahmed\source\repos\cpp_neural_net\Source.cpp(87,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\hahmed\source\repos\cpp_neural_net\Source.cpp(322,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\hahmed\source\repos\cpp_neural_net\Source.cpp(323,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\hahmed\source\repos\cpp_neural_net\Source.cpp(340,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\hahmed\source\repos\cpp_neural_net\Source.cpp(346,10): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\hahmed\source\repos\cpp_neural_net\Source.cpp(358,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\hahmed\source\repos\cpp_neural_net\Source.cpp(370,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\hahmed\source\repos\cpp_neural_net\Source.cpp(377,20): warning C4018: '<': signed/unsigned mismatch
+  srand-rand-functions.cpp
+C:\Users\hahmed\source\repos\cpp_neural_net\srand-rand-functions.cpp(51,23): warning C4244: '=': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating Code...
