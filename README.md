@@ -1,4 +1,4 @@
-# managing randomness to enable reproducible machine learning #
+# Managing Randomness to Enable Reproducible Machine Learning #
 
 DOI: 10.1145/3526062.3536353
 
