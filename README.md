@@ -48,9 +48,9 @@ Similar to the neural network, the k-means code is compatible with all six data 
 
 2. Compile and link all files with srand()/rand() converter:
 
-    `cl -c naivebayesian.cc bayesian.cc machinelearning.cc main.cc ..\srand-rand-functions.cc`
+    `cl -c naivebayesian.cc bayesian.cc machinelearning.cc main.cc ..\srand-rand-functions.cpp`
 
-    `cl naivebayesian.cc bayesian.cc machinelearning.cc main.cc ..\srand-rand-functions.cc -o bayesian.exe"
+    `cl naivebayesian.cc bayesian.cc machinelearning.cc main.cc ..\srand-rand-functions.cpp -o bayesian.exe`
 
 3. Call the executable file with 4 command line arguments: dataset file location, train ratio, test ratio, configuration file location.
 
