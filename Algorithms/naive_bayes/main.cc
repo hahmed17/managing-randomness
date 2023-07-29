@@ -8,9 +8,9 @@
 #include <stdlib.h>
 #include <ctype.h>
 
-//#include "bayesiannetwork.h"
+#include "bayesiannetwork.h"
 #include "naivebayesian.h"
-#include "../srand-rand-function.h"
+//#include "../srand-rand-function.h"
 
 using namespace std;
 
@@ -49,19 +49,19 @@ int main(int argc, char **argv) {
         train_ratio = double(train_ratio_int) / double(10);
     }
     else {
-        char *train_ratio_input = argv[3];
+        char *train_ratio_input = argv[2];
         sscanf_s(argv[2], "%lf", &train_ratio);
     }
 
     // convert input test ratio to double
     double test_ratio;
-    if (isInt(argv[2])) {
-        int test_ratio_int = atoi(argv[2]);
+    if (isInt(argv[3])) {
+        int test_ratio_int = atoi(argv[3]);
         test_ratio = double(test_ratio_int) / double(10);
     }
     else {
         char* test_ratio_input = argv[3];
-        sscanf_s(argv[2], "%lf", &test_ratio);
+        sscanf_s(argv[3], "%lf", &test_ratio);
     }
 
     split_data(data, train_ratio, test_ratio);
@@ -76,7 +76,7 @@ int main(int argc, char **argv) {
     prediction_result = naive.Predict(1);
     // Call function to do prediction
     // Pass second argument "1" to denote that we will provide answer/truth for
-    // this prediction. Pass second argument "0" to do real prediction.
+    // this prediction. Pass sencond argument "0" to do real prediction.
     
 
     end = clock();
